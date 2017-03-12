@@ -18,13 +18,13 @@
    layer to target (using the "js-" prefix) */
 
 
-/* function to compute total word count of text - WORKING PROPERLY */
+/* function to compute total word count of text - WORKING */
 function totalWordCount(str) {
 	var words = str.split(" ");
 	return words.length;
 }
 
-/* function to compute unique word count of text - WORKING PROPERLY */
+/* function to compute unique word count of text - WORKING */
 function uniqueWordCount(str) {
 	var words = str.toLowerCase(" ").split(" ");	
 	var wordFrequency = {};
@@ -38,7 +38,7 @@ function uniqueWordCount(str) {
 	return wordFrequency;
 }
 
-/* function to compute average word length (in characters) of text */
+/* function to compute average word length (in characters) of text - WORKING */
 function averageWordLength(str) {
 	var words = str.split(" ");
 	var chars = str.split("");
